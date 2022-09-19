@@ -17,15 +17,18 @@ What I need is for the program to continually take input and turn that into bina
     Clause: Turn the alphanumeric characters into binary chars.
 '''
 
+
+import string
+
 def ing_2_bin():
     print('Hello!\nType a message and you\'ll see it in binary.\nType "quit" to end the program.')
-    dope = ()
+    dope = input("Type it here: ")
     # if dope != 'quit' or 'Quit':
     for i in dope:
         dope2num = str(i)
         num2bin = ord(dope2num)
         binned = bin(num2bin)
-        # print(binned)
+        print(binned)
            
             # IT WORKS!!!!!!!!!!!!!!!!!!!!!!!! BOOOWOOOOM
    
@@ -33,7 +36,7 @@ def ing_2_bin():
 
 
 
-# ing_2_bin() 
+ing_2_bin() 
 
 
 def run_up():
@@ -48,7 +51,7 @@ def run_up():
         print('Do you want to try again? Yes or no:', apple)
         
 
-run_up()
+# run_up()
 
 # *** Ta-Da List ***
 # What is the iterative block?
