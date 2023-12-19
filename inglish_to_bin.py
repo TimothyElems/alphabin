@@ -40,8 +40,7 @@ ing_2_bin()
 
 
 def run_up():
-    apple = input()
-    if apple == 'yes':
+    if (apple := input()) == 'yes':
         print('Thanks')        
     else:    
         for i in range(0, 60):
